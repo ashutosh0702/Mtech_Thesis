@@ -1,0 +1,3 @@
+Need to add wandb API Key 
+Check for docker and run docker compose --build
+Mtech Version 1 project timeline check
