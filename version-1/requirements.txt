@@ -4,4 +4,16 @@ pip
 pytest
 python-dotenv
 ruff
+torch
+torchvision
+torchaudio
+torchgeo
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
+wandb
+lightning
+matplotlib
 -e .

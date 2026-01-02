@@ -1,0 +1,14 @@
+services:
+  dev-env:
+    build: .
+    volumes:
+      - .:/app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - WANDB_API_KEY=${WANDB_API_KEY}
