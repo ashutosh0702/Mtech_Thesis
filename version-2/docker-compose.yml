@@ -1,0 +1,9 @@
+services:
+  geo-research:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
+    environment:
+      - MLFLOW_TRACKING_URI=file:///app/mlruns

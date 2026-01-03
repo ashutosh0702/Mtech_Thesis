@@ -1,0 +1,9 @@
+[ ] Replace random pixel sampling with spatial_block and polygon_aware splits in dataset.py.
+
+[ ] Implement 3-pixel buffer zones to eliminate CNN receptive field leakage.
+
+[ ] Run a baseline comparison in MLflow: Random vs. Spatially Disjoint on Indian Pines.
+
+[ ] Update Makefile to include a make evaluate_spatial command.
+
+[ ] Check for docker and run docker compose up for the new MLflow UI service.
