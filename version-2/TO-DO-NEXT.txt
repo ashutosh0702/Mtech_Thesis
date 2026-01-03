@@ -4,6 +4,5 @@
 
 [ ] Run a baseline comparison in MLflow: Random vs. Spatially Disjoint on Indian Pines.
 
-[ ] Update Makefile to include a make evaluate_spatial command.
+[D ] Check for docker and run docker compose up for the new MLflow UI service.
 
-[ ] Check for docker and run docker compose up for the new MLflow UI service.
